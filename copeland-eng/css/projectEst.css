@@ -1,0 +1,160 @@
+/* CSS Reset -- Typically in reset.css.  Place right below comment if no reset.css is referenced in html */
+
+/* Box Sizing border-box */
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  /*border: 2px solid #548e70;*/
+  /*background-color: #93b287;*/
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #548e70;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.header #logo {
+  border: 2px solid #548e70;
+  text-align: center;
+  height: 40px;
+}
+
+.header #heading {
+  text-align: center;
+  height: 40px;
+}
+
+#heading p {
+  padding: 10px;
+}
+.house-review {
+  margin-top: 10px;
+  /*height: 200px;*/
+}
+.house-review .nav-bar {
+  height: 180px;
+  border: 2px solid #548e70;
+}
+
+.house-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /*height: 160px;*/
+  margin-left: 50px;
+  /*background-color: #93b287;*/
+}
+.para-fonts {
+  font-style: italic;
+  font-weight: bold;
+}
+.house-layout-content {
+  height:80px;
+  padding: 10px;
+}
+
+.house-layout-examples button {
+  width: 100%;
+  border: 2px solid #548e70;
+  background-color: #cceada;
+}
+
+.house-layout-examples{
+  height: 50px;
+}
+.square-footage {
+  margin-top:10px;
+  height: 550px;
+}
+.square-footage p {
+  margin-left: 20px;
+  padding-top: 10px;
+}
+.square-footage .square-bottom {
+  margin-bottom: 10px;
+  border: 2px solid #525e4f;
+  border-radius: 10px;
+  /*background-color: #eaefe8;*/
+  background-color: #212121;
+  /*height: 280px;*/
+  padding: 20px;
+  margin:auto;
+}
+
+
+.square-footage .wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.square-footage .square-middle {
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #525e4f;
+  border-radius: 10px;
+  /*background-color: #eaefe8;*/
+  background-color: #212121;
+
+  /*height: 280px;*/
+  padding: 10px;
+}
+
+
+.square-footage .square-top {
+  margin-top:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #525e4f;
+  border-radius: 10px;
+  /*background-color: #eaefe8;*/
+  background-color: #212121;
+  /*height: 280px;*/
+  padding: 10px;
+}
+
+button {
+  width: 60%;
+  align-self: center;
+  padding: 10px;
+  border: 2px solid #548e70;
+  background-color: #cceada;
+  color: #212121;
+}
+
+
+.construction-char {
+  /*margin-top: 10px;*/
+  /*height: 200px;*/
+  padding: 10px;
+  border: 2px solid #525e4f;
+  border-radius: 10px;
+  background-color: #212121;
+
+
+}
+.construction-char-content{
+  display: flex;
+  justify-content: space-between;
+  /*height: 100px;*/
+  padding: 10px;
+}
+.construction-char-content .construction-char-content-items{
+  /*line-height: 0px;*/
+}
+.total p{
+  margin-left:750px;
+  margin-top:20px;"
+}
+.footer {
+  outline-style: solid;
+  height: 50px;
+  text-align: center;
+}

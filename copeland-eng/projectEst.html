@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Copeland Engineering</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/projectEst.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link <link href="https://fonts.googleapis.com/css?family=Acme|Bangers|Barrio|Calligraffitti|Chewy|Covered+By+Your+Grace|Homemade+Apple|Rock+Salt" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="row navPadding">
+        <header>
+          <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+
+            <div class="navbar-header">
+              <div id="logo" class="logo col-md-4">
+                <img src="img/cope logo.jpg"  alt="Copeland Engineering Logo">
+              </div>
+              <!-- Slogan Section -->
+              <div id="slogan" class="slogan col-md-8 pull-right">
+                <h3>Project Estimator</h3>
+              </div>
+            </div>
+            <!-- <div id="myNavbar" class="collapse navbar-collapse"> -->
+              <ul class="nav nav-pills pull-right">
+                <li role="presentation"><a href="index.html">Home</a></li>
+                <li role="presentation"><a href="about.html">About Us</a></li>
+                <li role="presentation"><a href="markets.html">Markets</a></li>
+                <li role="presentation"><a href="projectEst.html">Tools</a></li>
+                <li role="presentation"><a href="#contact">Contact Us</a></li>
+              </ul>
+            </div>
+
+          </nav>
+        </header>
+      </div>
+
+      <form class="p-estimator" action="index.html" method="post">
+
+      <div class="house-review"><!--house review-->
+
+        <div class="row col-md-10">
+          <div class="house-layout"><!--house layout-->
+            <div class="house-layout-content">
+                <p class="para-fonts">Let's review your house ...<br></p>
+
+                <input type="radio" name="story" value="StoryOne"> 1 Story
+                <input type="radio" name="story" value="StoryTwo"> 2 Story
+                <input type="radio" name="story" value="StoryThree"> 3 Story (or 2 storywith basement or Attic)
+
+            </div>
+            <!-- <div class="house-layout-examples">
+              <button type="button" onclick="alert('Show pictures here!')">Quick Layout Examples</button>
+            </div> -->
+          </div><!--end house-layout-->
+        </div>
+      </div><!--end house review-->
+
+      <div class="row col-md-12">
+        <div class="square-footage"><!--sqaure footage-->
+          <p class="para-fonts">Square Footage</p>
+          <div class="square-bottom">
+            Bottom
+            <input type="radio" name="sfootage" value="squareBasement"> Basement
+            <input type="radio" name="sfootage" value="squareFirstFloor"> 1st Floor
+            <div class="upper">
+
+              <div class="text">
+                <p>Remove?</p>
+              </div>
+
+              <div class="wrapper">
+                <div class="one">
+                  <input type="checkbox" name="" value="ACSpace"> SF AC Space<br>
+                  <input type="checkbox" name="" value="SFGarage"> SF Garage<br>
+                  <input type="checkbox" name="" value="FrontPatios"> SF Front Patio(s)<br>
+                  <input type="checkbox" name="" value="RearPAtios"> SF Rear Patios(s)
+                </div>
+
+                <div class="two" style="margin-top:20px;">
+                  Detached <input type="checkbox" name="" value="Detached"><br>
+                  Covered <input type="checkbox" name="" value="Covered"><br>
+                  Covered <input type="checkbox" name="" value="FrontPatios"><br>
+                </div>
+
+                <div class="SF">
+                  ______<br>
+                  ______<br>
+                  ______<br>
+                  ______<br>
+
+                </div>
+              </div>  <!-- Wrapper -->
+
+              <div class="text">
+                <p>Add?</p>
+              </div>
+
+              <div class="wrapper">
+                <div class="one-two" style="margin-right: 485px;">
+                  <input type="checkbox" name="" value="ACSpace"> SF Balcony<br>
+                  <input type="checkbox" name="" value="SFGarage"> SF non-AC Space<br>
+                  <input type="checkbox" name="" value="FrontPatios"> SF other<br>
+                </div>
+              </div>
+            </div><!--end upper-->
+          </div><!--end square-bottom-->
+
+          <div class="square-middle">
+            <div class="square-middle-content">
+              Middle
+              <input type="radio" name="floor" value="floorOne"> 1st Floor
+              <input type="radio" name="floor" value="floorTwo"> 2nd Floor<br>
+            </div>
+            <button type="button" onclick="alert('Show pictures here!')"> Repeat entries from above</button>
+          </div>  <!-- square-middle -->
+
+          <div class="square-top">
+            <div class="square-top-content">
+              Top
+              <input type="radio" name="floor" value="floorOne"> 1st Floor
+              <input type="radio" name="floor" value="floorTwo"> 2nd Floor<br>
+            </div>
+            <button type="button" onclick="alert('Show pictures here!')"> Repeat entries from above</button>
+          </div>
+
+        </div><!--end square footage-->
+      </div>  <!-- row col-md-12 -->
+
+
+    <!-- Project characteristics -->
+    <div class="row col-md-12">
+      <div class="construction-char">
+        <p class="para-fonts">Construction characteristics</p>
+        <div class="construction-char-content">
+          <div class="construction-char-content-items">
+            <ul>
+              <li>Foundation</li>
+              <li>Floor</li>
+              <li>Roof</li>
+            </ul>
+          </div>
+
+          <div class="construction-char-content-items">
+            <input type="radio" name="Foundation" value="PT"> SOG PT<br>
+            <input type="radio" name="floor" value="TJI"> TJI<br>
+            <input type="radio" name="Roof" value="Stick"> Stick<br>
+          </div>
+
+          <div class="construction-char-content-items">
+            <input type="radio" name="Foundation" value="Steel">SOG Steel<br>
+            <input type="radio" name="floor" value="Truss"> Truss<br>
+            <input type="radio" name="Roof" value="Truss"> Truss<br>
+          </div>
+
+          <div class="construction-char-content-items">
+            <input type="radio" name="Foundation" value="Pier"> Pier/Beam<br>
+          </div>
+        </div>
+
+        <div class="total">
+          <p class="para-fonts"> Total ________</p>
+        </div>
+      </div>
+    </div>
+
+  </form><!--end form-->
+
+    <!-- Flex Box Section -->
+    <div class="row">
+      <div class="col-md-12">
+        <div class="flex-container">
+
+          <!-- Contact Info -->
+          <div class="flex-item">
+            <section class="blue"></section>
+            <h2> Contact Info</h2>
+            <h4>Email & Phone:</h4>
+            <p>projectmanager@copeland-eng.com</p>
+            <p>512-914-6307</p>
+            <h4>Address:</h4>
+            <p>1120 Cottonwood Creek Trail Bldg A STE 180<br>
+               Cedar Park, Texas 78613</p>
+          </div>
+
+          <!-- Service Markets -->
+          <div class="flex-item">
+            <section class="orange"></section>
+            <h2> Services </h2>
+            <p>Custom Home Builder / Architect / Remodel-Addition </p>
+            <p> Volume Builder</p>
+            <p> Pool & Landscaping Services </p>
+            <p>Civil Engineering </p>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="flex-item">
+            <section class="teal"></section>
+            <h2> Social Media </h2>
+            <div class="social">
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-youtube"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </div>
+          </div>
+
+        </div>  <!-- flex container -->
+      </div>    <!-- col-md-12 -->
+    </div>      <!-- row -->
+
+    <!-- Footer section with links -->
+    <footer id=contact class="row">
+      <div class="links col-md-12">
+        <ul>
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation"><a href="about.html">About Us</a></li>
+          <li role="presentation"><a href="markets.html">Markets</a></li>
+          <li role="presentation"><a href="projectEst.html">Tools</a></li>
+          <!-- <li role="presentation"><a href="#contact">Contact Us</a></li> -->
+          </ul>
+      </div>
+    </footer>
+
+</div><!--end container-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/83d7fcc7a3.js"></script>
+  </body>
+
+</html>
